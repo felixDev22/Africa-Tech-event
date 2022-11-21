@@ -12,6 +12,7 @@ $secondary-color: #272a31;
 $light-grey: #d3d3d3;
 $font: lato, sans-serif;
 $white: #fff;
+$grey-back: #f7f7f8;
 
 body {
   font-family: $font;
@@ -39,7 +40,6 @@ nav {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  position: relative;
 }
 .title {
   margin-top: 4rem;
@@ -65,4 +65,71 @@ h2 {
   font-size: 1.5rem;
   font-weight: 300;
   color: $primary-color;
+}
+.box {
+  margin-top: 1rem;
+  border: solid 0.2rem #fff;
+  padding: 0.5rem;
+  background: rgb(247, 247, 248);
+}
+
+p {
+  font-size: 0.7rem;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: center;
+  h4 {
+    font-size: 1.2rem;
+    color: $secondary-color;
+  }
+  .venue {
+    margin-top: 0.5rem;
+  }
+}
+.program {
+  background-image: url(../images/prog-bg-04.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin-top: -210px;
+  h2 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .line {
+    width: 20%;
+    height: 0.5%;
+    background: $primary-color;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.box-content {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.program-item {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 14%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.154);
+  h3 {
+    color: $primary-color;
+    font-size: 1em;
+    p {
+      font-size: 1.5rem;
+    }
+  }
 }
