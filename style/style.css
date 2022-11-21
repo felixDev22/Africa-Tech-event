@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: lato, sans-serif;
+}
+
+.container {
+  padding: 1rem 8%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  margin-left: 25%;
+}
+
+.mobile-menu a {
+  font-size: 2rem;
+  color: #272a31;
+}/*# sourceMappingURL=style.css.map */
