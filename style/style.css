@@ -18,6 +18,10 @@ body {
 nav {
   display: flex;
   align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 70px;
+  padding: 1rem 8%;
 }
 nav .logo {
   margin-left: 25%;
@@ -26,4 +30,34 @@ nav .logo {
 .mobile-menu a {
   font-size: 2rem;
   color: #272a31;
+}
+
+.hero-section {
+  background-image: url(../images/mobile-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.title {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: transparent;
+  letter-spacing: 1px;
+  background-image: linear-gradient(45deg, rgba(235, 71, 53, 0.939), rgba(252, 44, 7, 0.6)), url(../images/comp.png);
+  background-size: contain;
+  background-position-y: 10px;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ed5342;
 }/*# sourceMappingURL=style.css.map */
