@@ -105,7 +105,8 @@ p {
   color: #fff;
   font-size: 1rem;
 }
-.program .line {
+
+.line {
   width: 40px;
   height: 2px;
   display: flex;
@@ -165,4 +166,47 @@ p {
 }
 .register-btn a {
   color: #fff;
+}
+
+.speakers {
+  width: 100%;
+  height: auto;
+}
+.speakers h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #272a31;
+  font-size: 1rem;
+}
+
+.speakers-detail {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.speakers-detail h3 {
+  font-size: 0.95rem;
+}
+
+.portrait .image {
+  position: relative;
+  width: 100%;
+  z-index: 30;
+}
+
+.shape img {
+  position: absolute;
+  width: 10%;
+  margin-top: -110px;
+  margin-left: -10px;
+}
+
+.text-area span {
+  width: 20px;
+  height: 2px;
+  display: flex;
+  background: #ed5342;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */

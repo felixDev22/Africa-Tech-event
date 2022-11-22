@@ -119,15 +119,15 @@ p {
     color: $white;
     font-size: 1rem;
   }
-  .line {
-    width: 40px;
-    height: 2px;
-    display: flex;
-    background: $primary-color;
-    position: absolute;
-    margin-top: -29px;
-    left: 45%;
-  }
+}
+.line {
+  width: 40px;
+  height: 2px;
+  display: flex;
+  background: $primary-color;
+  position: absolute;
+  margin-top: -29px;
+  left: 45%;
 }
 .program-item {
   margin-bottom: 10px;
@@ -175,4 +175,43 @@ p {
   a {
     color: $white;
   }
+}
+.speakers {
+  width: 100%;
+  height: auto;
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: $secondary-color;
+    font-size: 1rem;
+  }
+}
+.speakers-detail {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  h3 {
+    font-size: 0.95rem;
+  }
+}
+
+.portrait .image {
+  position: relative;
+  width: 100%;
+  z-index: 30;
+}
+.shape img {
+  position: absolute;
+  width: 10%;
+  margin-top: -110px;
+  margin-left: -10px;
+}
+.text-area span {
+  width: 20px;
+  height: 2px;
+  display: flex;
+  background: $primary-color;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
