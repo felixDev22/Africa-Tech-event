@@ -42,12 +42,41 @@ nav {
     margin-left: 25%;
   }
 }
-.mobile-menu a {
-  font-size: 2rem;
-  color: $secondary-color;
+.top-nav {
+  display: none;
 }
+.main-menu {
+  display: none;
+  position: absolute;
+  background: $secondary-color;
+  opacity: 90%;
+  padding: 35px;
+  width: 350px;
+  height: 400px;
+  left: 0;
+  top: 0px;
+}
+.main-menu ul li {
+  margin-top: 30px;
+}
+
+.main-menu ul li a {
+  color: $white;
+}
+.main-menu a:hover {
+  color: $primary-color;
+}
+.main-menu img {
+  width: 5%;
+  float: right;
+  margin-top: 25px;
+}
+.mobile-menu img {
+  width: 25%;
+}
+
 .hero-section {
-  background-image: url(../images/mobile-bg.png);
+  background-image: url(../images/mobile-bg-03.png);
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
@@ -188,9 +217,11 @@ p {
     font-size: 1rem;
   }
 }
+.speaker-area {
+  display: flex;
+}
 .speakers-detail {
   display: flex;
-  gap: 10px;
   margin-bottom: 40px;
   h3 {
     font-size: 0.95rem;
@@ -205,7 +236,7 @@ p {
 .shape img {
   position: absolute;
   width: 10%;
-  margin-top: -120px;
+  margin-top: -125px;
   margin-left: -10px;
 }
 .text-area span {
@@ -215,4 +246,77 @@ p {
   background: $primary-color;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+#partners {
+  @include flex;
+  width: 100%;
+  height: auto;
+  background-color: $secondary-color;
+}
+.partners-content {
+  margin-top: 50px;
+  .line {
+    margin-top: 10px;
+  }
+}
+
+// -------------Media-query---------------
+
+@media (min-width: 768px) {
+  .container {
+    padding: 1rem 10%;
+  }
+  .hero-section {
+    background-image: url(../images/dsk-bg.png);
+    height: 100vh;
+  }
+  .title {
+    margin-top: 9rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .mobile-menu img {
+    display: none;
+  }
+  .logo img {
+    display: flex;
+    flex-direction: flex-start;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .container {
+    padding: 1rem 20%;
+  }
+  nav {
+    position: relative;
+    box-shadow: 0px 7px 9px 0px rgb(0, 0, 0, 0.2);
+  }
+  #logo {
+    margin-left: -85%;
+    display: flex;
+  }
+  h1 {
+    font-size: 4.6rem;
+    font-weight: 900;
+    line-height: 5rem;
+    color: transparent;
+    letter-spacing: 1px;
+  }
+  .box {
+    width: 65%;
+    height: 120px;
+    padding: 2%;
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+.date h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.4rem;
 }

@@ -45,10 +45,12 @@ const speakersData = [
   },
 ];
 
-const dynamic = document.querySelector('.speaker-area');
-dynamic.innerHTML = `<div class='speakers-detail'>
-          <div class='portrait'>
-          <img src="${speakersData[0].photo}" class="image" alt="speaker" />
+speakersData.forEach((element, i) => {
+  const speakers = document.createElement('div');
+  speakers.classList = '.speakers-detail';
+
+  const dynamic = `<div class='portrait'>
+          <img src="${speakersData[0].photo}" class=image alt="speaker" />
           <div class='shape'>
             <img src="${speakersData[0].shape}" alt="shape" />
           </div>
@@ -60,18 +62,24 @@ dynamic.innerHTML = `<div class='speakers-detail'>
           <p>
           ${speakersData[0].description} 
           </p>
-        </div>
         </div>`;
 
-// --------------------- Mobile-Menu------------------
+  speakers.innerHTML += dynamic;
+  appendChild(speakers);
+});
 
-const mobileMenu = document.getElementById('main-menu');
-const closeBtn = document.getElementById('close');
-const hamburger = document.getElementById('menu');
-
-hamburger.onclick = function showMenu() {
-  mobileMenu.style.display = 'block';
-};
-closeBtn.onclick = function closeMenu() {
-  mobileMenu.style.display = 'none';
-};
+// const dynamic = document.querySelector('.speakers-detail');
+// dynamic.innerHTML = `<div class='portrait'>
+//           <img src="${speakersData[0].photo}" class=image alt="speaker" />
+//           <div class='shape'>
+//             <img src="${speakersData[0].shape}" alt="shape" />
+//           </div>
+//         </div>
+//         <div class='text-area'>
+//           <h3>Lorna Gig</h3>
+//           <p style="color:#ed5342"><em>${speakersData[0].title}</em></p>
+//           <span></span>
+//           <p>
+//           ${speakersData[0].description}
+//           </p>
+//         </div>`;
