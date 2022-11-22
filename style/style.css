@@ -36,7 +36,7 @@ nav .logo {
   background-image: url(../images/mobile-bg.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .title {
@@ -90,23 +90,21 @@ p {
 .program {
   background-color: #272a31;
   background-size: 10px 10px;
-  background-image: radial-gradient(#181a1f 30%, transparent 10%, #272a31 30%, transparent 10%), linear-gradient(135deg, #121315 20%, transparent 10%, #21252c);
+  background-image: radial-gradient(#181a1f 30%, transparent 10%, #262b39 50%, transparent 10%), linear-gradient(135deg, #121315 20%, transparent 10%, #21252c);
 }
 .program h2 {
   margin-top: 20px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .program .line {
-  width: 20%;
-  height: 0.5%;
-  background: #ed5342;
-  text-align: center;
-}
-
-.box-content {
+  width: 80px;
+  height: 2px;
   display: flex;
-  gap: 10px;
-  padding: 5px;
+  background: #ed5342;
+  position: absolute;
+  margin-top: -29px;
+  left: 40%;
 }
 
 .program-item {
@@ -116,13 +114,30 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0.5rem;
   color: #fff;
   background: rgba(255, 255, 255, 0.154);
 }
 .program-item h3 {
   color: #ed5342;
-  font-size: 1em;
+  font-size: 0.95rem;
 }
 .program-item h3 p {
   font-size: 1.5rem;
+}
+.program-item .top {
+  flex-basis: 55%;
+  display: flex;
+  align-items: center;
+}
+.program-item .top img {
+  width: 30%;
+  margin-right: 0.5rem;
+}
+.program-item .box-content {
+  margin-left: -20px;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  flex-basis: 70%;
 }/*# sourceMappingURL=style.css.map */

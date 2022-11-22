@@ -39,7 +39,7 @@ nav {
   background-image: url(../images/mobile-bg.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .title {
   margin-top: 4rem;
@@ -96,25 +96,25 @@ p {
   background-image: radial-gradient(
       #181a1f 30%,
       transparent 10%,
-      #272a31 30%,
+      #262b39 50%,
       transparent 10%
     ),
     linear-gradient(135deg, #121315 20%, transparent 10%, #21252c);
+
   h2 {
     margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
   }
   .line {
-    width: 20%;
-    height: 0.5%;
+    width: 80px;
+    height: 2px;
+    display: flex;
     background: $primary-color;
-    text-align: center;
+    position: absolute;
+    margin-top: -29px;
+    left: 40%;
   }
-}
-.box-content {
-  display: flex;
-  gap: 10px;
-  padding: 5px;
 }
 .program-item {
   margin-bottom: 10px;
@@ -123,13 +123,30 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0.5rem;
   color: #fff;
   background: rgba(255, 255, 255, 0.154);
   h3 {
     color: $primary-color;
-    font-size: 1em;
+    font-size: 0.95rem;
     p {
       font-size: 1.5rem;
     }
+  }
+  .top {
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+  }
+  .top img {
+    width: 30%;
+    margin-right: 0.5rem;
+  }
+  .box-content {
+    margin-left: -20px;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-basis: 70%;
   }
 }
