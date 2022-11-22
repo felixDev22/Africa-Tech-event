@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
 body {
@@ -13,6 +14,11 @@ body {
 
 .container {
   padding: 1rem 8%;
+}
+
+a {
+  text-decoration: none;
+  font-family: lato, sans-serif;
 }
 
 nav {
@@ -96,15 +102,17 @@ p {
   margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
+  color: #fff;
+  font-size: 1rem;
 }
 .program .line {
-  width: 80px;
+  width: 40px;
   height: 2px;
   display: flex;
   background: #ed5342;
   position: absolute;
   margin-top: -29px;
-  left: 40%;
+  left: 45%;
 }
 
 .program-item {
@@ -140,4 +148,21 @@ p {
   gap: 10px;
   padding: 5px;
   flex-basis: 70%;
+}
+
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  display: flex;
+  background: #ed5342;
+  padding: 20px 40px;
+}
+.register-btn a {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

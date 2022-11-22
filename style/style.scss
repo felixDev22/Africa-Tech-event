@@ -5,7 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
+  outline: none;
+  border: none;
 }
 $primary-color: #ed5342;
 $secondary-color: #272a31;
@@ -14,11 +15,21 @@ $font: lato, sans-serif;
 $white: #fff;
 $grey-back: #f7f7f8;
 
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: $font;
 }
 .container {
   padding: 1rem 8%;
+}
+a {
+  text-decoration: none;
+  font-family: $font;
 }
 nav {
   display: flex;
@@ -105,15 +116,17 @@ p {
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
+    color: $white;
+    font-size: 1rem;
   }
   .line {
-    width: 80px;
+    width: 40px;
     height: 2px;
     display: flex;
     background: $primary-color;
     position: absolute;
     margin-top: -29px;
-    left: 40%;
+    left: 45%;
   }
 }
 .program-item {
@@ -148,5 +161,18 @@ p {
     gap: 10px;
     padding: 5px;
     flex-basis: 70%;
+  }
+}
+.reg {
+  @include flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.register-btn {
+  display: flex;
+  background: $primary-color;
+  padding: 20px 40px;
+  a {
+    color: $white;
   }
 }
