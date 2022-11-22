@@ -1,21 +1,62 @@
 //Create speakers sections
 
-const speakersData = [{}];
-
+const speakersData = [
+  {
+    photo: './images/Speaker 1.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/Speaker-2.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/Speaker-7.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/Speaker-3.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/Speaker-4.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/Speaker-8.png',
+    shape: './images/vector3.png',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+];
 const dynamic = document.querySelector('.speakers-detail');
 dynamic.innerHTML = `<div class='portrait'>
-          <img src="./images/Speaker 1.png" class=image alt="speaker" />
+          <img src="${speakersData[0].photo}" class=image alt="speaker" />
           <div class='shape'>
-            <img src="./images/vector3.png"   alt="shape" />
+            <img src="${speakersData[0].shape}" alt="shape" />
           </div>
         </div>
         <div class='text-area'>
           <h3>Lorna Gig</h3>
-          <p><em>CE0 of Africa Tech club</em></p>
+          <p style="color:#ed5342"><em>${speakersData[0].title}</em></p>
           <span></span>
-          <p> Africa Tech was established in 2022 to bring on-board the
-                African youth to the Tech community. We welcome you for our
-                first Dev event
+          <p>
+          ${speakersData[0].description} 
           </p>
         </div>`;
 

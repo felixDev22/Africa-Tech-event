@@ -182,7 +182,7 @@ p {
 
 .speakers-detail {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 40px;
 }
 .speakers-detail h3 {
@@ -191,14 +191,14 @@ p {
 
 .portrait .image {
   position: relative;
-  width: 100%;
+  width: 80%;
   z-index: 30;
 }
 
 .shape img {
   position: absolute;
   width: 10%;
-  margin-top: -110px;
+  margin-top: -120px;
   margin-left: -10px;
 }
 
