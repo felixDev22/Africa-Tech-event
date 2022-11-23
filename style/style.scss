@@ -218,16 +218,17 @@ p {
   }
 }
 .speaker-area {
+  width: 100%;
   display: flex;
 }
 .speakers-detail {
   display: flex;
   margin-bottom: 40px;
   h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .image {
-    width: 30%;
+    width: 20%;
   }
   .col-2 {
     display: flex;
@@ -235,7 +236,7 @@ p {
     margin-top: 1rem;
     margin-left: 20px;
   }
-  .text-area span {
+  .col-2 span {
     width: 20px;
     height: 2px;
     display: flex;
@@ -281,7 +282,7 @@ p {
   .user-login a {
     color: $white;
     font-size: 0.7rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .social-icons img {
     float: right;
@@ -368,8 +369,33 @@ p {
   .speakers-detail {
     gap: 10px;
   }
+  .speakers-detail {
+    .image {
+      width: 30%;
+    }
+    .col-2 {
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+  .col-2 {
+    p {
+      font-size: 1rem;
+    }
+  }
+  .speakers{
+     h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: $white;
+    font-size: 1rem;
+      span{
+        left: 45%;
+      }
+  }
 }
-
 @media screen and (min-width: 1120px) {
   .container {
     padding: 1rem 20%;

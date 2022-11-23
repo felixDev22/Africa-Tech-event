@@ -52,7 +52,33 @@ dynamic.innerHTML = `<div class='speakers-detail'>
           ${speakersData[0].description} 
           </p>
         </div>
-        </div>`;
+        </div>
+
+
+        <div class='speakers-detail'>
+          
+          <img src="${speakersData[0].photo}" class="image" 
+        </div>
+        <div class='col-2'>
+          <h3>Lorna Gig</h3>
+          <p style="color:#ed5342"><em>${speakersData[0].title}</em></p>
+          <span></span>
+          <p>
+          ${speakersData[0].description} 
+          </p>
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        `;
 
 // --------------------- Mobile-Menu------------------
 
