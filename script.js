@@ -2,43 +2,37 @@
 
 const speakersData = [
   {
-    photo: './images/Speaker 1.png',
-    shape: './images/vector3.png',
+    photo: './images/Speakers-01.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/Speaker-2.png',
-    shape: './images/vector3.png',
+    photo: './images/Speakers-02.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/Speaker-7.png',
-    shape: './images/vector3.png',
+    photo: './images/Speakers-03.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/Speaker-3.png',
-    shape: './images/vector3.png',
+    photo: './images/Speakers-04.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/Speaker-4.png',
-    shape: './images/vector3.png',
+    photo: './images/Speakers-05.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/Speaker-8.png',
-    shape: './images/vector3.png',
+    photo: './images/Speaker-06.png',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
@@ -47,13 +41,10 @@ const speakersData = [
 
 const dynamic = document.querySelector('.speaker-area');
 dynamic.innerHTML = `<div class='speakers-detail'>
-          <div class='portrait'>
-          <img src="${speakersData[0].photo}" class="image" alt="speaker" />
-          <div class='shape'>
-            <img src="${speakersData[0].shape}" alt="shape" />
-          </div>
+          
+          <img src="${speakersData[0].photo}" class="image" 
         </div>
-        <div class='text-area'>
+        <div class='col-2'>
           <h3>Lorna Gig</h3>
           <p style="color:#ed5342"><em>${speakersData[0].title}</em></p>
           <span></span>

@@ -119,7 +119,7 @@ p {
   text-align: center;
 }
 .date h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #272a31;
 }
 .date .venue {
@@ -224,21 +224,14 @@ p {
 .speakers-detail h3 {
   font-size: 0.95rem;
 }
-
-.portrait .image {
-  position: relative;
-  width: 80%;
-  z-index: 30;
+.speakers-detail .image {
+  width: 50%;
 }
-
-.shape img {
-  position: absolute;
-  width: 10%;
-  margin-top: -125px;
-  margin-left: -10px;
+.speakers-detail .col-2 {
+  display: flex;
+  flex-direction: column;
 }
-
-.text-area span {
+.speakers-detail .text-area span {
   width: 20px;
   height: 2px;
   display: flex;
@@ -246,8 +239,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-#partners {
+.speakers-detail #partners {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,28 +247,25 @@ p {
   height: auto;
   background-color: #272a31;
 }
-
-.partners-content {
+.speakers-detail .partners-content {
   margin-top: 50px;
 }
-.partners-content .line {
+.speakers-detail .partners-content .line {
   margin-top: 10px;
 }
-
 @media (min-width: 768px) {
-  .container {
+  .speakers-detail .container {
     padding: 1rem 10%;
   }
-  .mobile-menu {
+  .speakers-detail .mobile-menu {
     display: none;
   }
-  nav {
+  .speakers-detail nav {
     height: 90px;
   }
-  .top-nav {
+  .speakers-detail .top-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     width: 100%;
     position: absolute;
     top: 0;
@@ -284,84 +273,101 @@ p {
     height: 25px;
     background: #272a31;
   }
-  .top-nav img {
-    width: 8%;
-  }
-  .top-nav .user-login a {
+  .speakers-detail .user-login a {
     color: #fff;
+    font-size: 0.7rem;
+    margin-left: 2rem;
   }
-  .top-nav .hero-section {
+  .speakers-detail .social-icons img {
+    float: right;
+    margin-right: 1rem;
+    width: 3.5%;
+  }
+  .speakers-detail .hero-section {
     background-image: url(../images/dsk-bg.png);
     height: 100vh;
   }
-  .top-nav .title {
+  .speakers-detail .title {
     margin-top: 9rem;
   }
-  .top-nav h2 {
+  .speakers-detail h2 {
     font-size: 3rem;
   }
-  .top-nav .mobile-menu img {
+  .speakers-detail .mobile-menu img {
     display: none;
   }
-  .top-nav .logo img {
-    margin-top: 10px;
+  .speakers-detail .logo img {
+    margin-top: 19px;
     display: flex;
     flex-direction: flex-start;
   }
-  .top-nav .program {
+  .speakers-detail .program {
     background-size: 20px 20px;
+    height: 550px;
   }
-  .top-nav .grid {
+  .speakers-detail .program h2 {
+    margin-top: 70px;
+    font-size: 1.8rem;
+  }
+  .speakers-detail .program .line {
+    width: 70px;
+    left: 47%;
+  }
+  .speakers-detail .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    margin-top: 15%;
   }
-  .top-nav .program-item {
+  .speakers-detail .program-item {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 200px;
+    height: auto;
     padding-left: 20px;
+    margin-top: -30px;
   }
-  .top-nav .top {
-    flex-basis: 40%;
+  .speakers-detail .program-item .top img {
+    width: 80%;
+  }
+  .speakers-detail .top {
+    flex-basis: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .top-nav .top img {
-    margin-top: 20px;
-    width: 70%;
-  }
-  .top-nav .box-content {
-    flex-basis: 40%;
+  .speakers-detail .box-content {
+    flex-basis: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .top-nav .box-content h3 br {
+  .speakers-detail .box-content h3 br {
     display: none;
   }
-  .top-nav .box-content p {
+  .speakers-detail .box-content p {
     font-size: 0.9rem;
     text-align: center;
   }
-  .top-nav .reg {
+  .speakers-detail .reg {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  .top-nav .register-btn {
+  .speakers-detail .register-btn {
     display: flex;
     background: #ed5342;
     padding: 20px 40px;
   }
-  .top-nav .register-btn a {
+  .speakers-detail .register-btn a {
     color: #fff;
   }
+  .speakers-detail .speakers-detail {
+    gap: 10px;
+  }
 }
+
 @media screen and (min-width: 1120px) {
   .container {
     padding: 1rem 20%;

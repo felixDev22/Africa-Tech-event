@@ -124,7 +124,7 @@ p {
   margin-top: 2rem;
   text-align: center;
   h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: $secondary-color;
   }
   .venue {
@@ -226,66 +226,65 @@ p {
   h3 {
     font-size: 0.95rem;
   }
-}
-.portrait .image {
-  position: relative;
-  width: 80%;
-  z-index: 30;
-}
-.shape img {
-  position: absolute;
-  width: 10%;
-  margin-top: -125px;
-  margin-left: -10px;
-}
-.text-area span {
-  width: 20px;
-  height: 2px;
-  display: flex;
-  background: $primary-color;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#partners {
-  @include flex;
-  width: 100%;
-  height: auto;
-  background-color: $secondary-color;
-}
-.partners-content {
-  margin-top: 50px;
-  .line {
-    margin-top: 10px;
+  .image {
+    width: 50%;
   }
-}
-
-// -------------Media-query---------------
-
-@media (min-width: 768px) {
-  .container {
-    padding: 1rem 10%;
-  }
-  .mobile-menu {
-    display: none;
-  }
-  nav {
-    height: 90px;
-  }
-  .top-nav {
+  .col-2 {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .text-area span {
+    width: 20px;
+    height: 2px;
+    display: flex;
+    background: $primary-color;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #partners {
+    @include flex;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    background: $secondary-color;
-    img {
-      width: 8%;
+    height: auto;
+    background-color: $secondary-color;
+  }
+  .partners-content {
+    margin-top: 50px;
+    .line {
+      margin-top: 10px;
+    }
+  }
+
+  // -------------Media-query---------------
+
+  @media (min-width: 768px) {
+    .container {
+      padding: 1rem 10%;
+    }
+    .mobile-menu {
+      display: none;
+    }
+    nav {
+      height: 90px;
+    }
+    .top-nav {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      background: $secondary-color;
     }
     .user-login a {
       color: $white;
+      font-size: 0.7rem;
+      margin-left: 2rem;
+    }
+    .social-icons img {
+      float: right;
+      margin-right: 1rem;
+      width: 3.5%;
     }
     .hero-section {
       background-image: url(../images/dsk-bg.png);
@@ -301,39 +300,47 @@ p {
       display: none;
     }
     .logo img {
-      margin-top: 10px;
+      margin-top: 19px;
       display: flex;
       flex-direction: flex-start;
     }
     .program {
       background-size: 20px 20px;
+      height: 550px;
+      h2 {
+        margin-top: 70px;
+        font-size: 1.8rem;
+      }
+      .line {
+        width: 70px;
+        left: 47%;
+      }
     }
     .grid {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       gap: 10px;
+      margin-top: 15%;
     }
 
     .program-item {
       display: flex;
       flex-direction: column;
-      width: 100%;
-      height: 200px;
+      height: auto;
       padding-left: 20px;
+      margin-top: -30px;
     }
-
+    .program-item .top img {
+      width: 80%;
+    }
     .top {
-      flex-basis: 40%;
+      flex-basis: fit-content;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .top img {
-      margin-top: 20px;
-      width: 70%;
-    }
     .box-content {
-      flex-basis: 40%;
+      flex-basis: fit-content;
       @include flex;
       h3 br {
         display: none;
@@ -355,6 +362,9 @@ p {
       a {
         color: $white;
       }
+    }
+    .speakers-detail {
+      gap: 10px;
     }
   }
 }
