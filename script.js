@@ -10,35 +10,36 @@ const speakersData = [
   },
   {
     photo: './images/Speakers-02.png',
-    name: 'Hellen john',
+    name: 'Bazu Bazu',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
     photo: './images/Speakers-03.png',
-    name: 'Hellen john',
+    name: 'Kevin Mzito',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
     photo: './images/Speakers-04.png',
-    name: 'Hellen john',
+    name: 'Felix Mtongoi',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
-  {
-    photo: './images/Speakers-05.png',
-    name: 'Hellen john',
-    title: 'CE0 of Africa Tech club',
-    description:
-      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
-  },
+
   {
     photo: './images/Speaker-06.png',
-    name: 'Hellen john',
+    name: 'Linda Henrys',
+    title: 'CE0 of Africa Tech club',
+    description:
+      'Founder of Brits-Tech, with 15 years experience in technology and innovation',
+  },
+  {
+    photo: './images/speaker07.png',
+    name: 'Linda Henrys',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
