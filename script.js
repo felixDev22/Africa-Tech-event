@@ -31,15 +31,15 @@ const speakersData = [
   },
 
   {
-    photo: './images/Speaker-06.png',
+    photo: './images/Speakers-05.png',
     name: 'Linda Henrys',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
   },
   {
-    photo: './images/speaker07.png',
-    name: 'Linda Henrys',
+    photo: './images/Speakers-06.png',
+    name: 'Shruti Shah',
     title: 'CE0 of Africa Tech club',
     description:
       'Founder of Brits-Tech, with 15 years experience in technology and innovation',
