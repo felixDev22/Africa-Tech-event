@@ -42,6 +42,10 @@ nav {
     margin-left: 25%;
   }
 }
+desktop-only {
+  display: none;
+}
+
 .top-nav {
   display: none;
 }
@@ -270,11 +274,17 @@ p {
   .container {
     padding: 1rem 10%;
   }
-  .mobile-menu {
+
+  desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
     display: none;
   }
   nav {
     height: 90px;
+    width: 100%;
   }
   .top-nav {
     display: flex;
@@ -300,6 +310,21 @@ p {
     background-image: url(../images/desk-back.png);
     width: 100%;
     height: auto;
+  }
+  .main-menu {
+    display: block;
+    flex-direction: row;
+    color: $secondary-color;
+  }
+  .main-menu ul li {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: flex-end;
+    margin: 10px 20px;
+  }
+  .main-menu ul li a {
+    color: $secondary-color;
+    font-size: 1rem;
   }
   .title {
     margin-top: 9rem;
