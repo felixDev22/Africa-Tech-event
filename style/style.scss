@@ -232,8 +232,9 @@ p {
     font-size: 1rem;
   }
   .image {
-    width: 50%;
-    height: 70%;
+    width: 30%;
+    height: 80%;
+    margin-top: 10px;
   }
   .col-2 {
     display: flex;
@@ -297,7 +298,8 @@ p {
   }
   .hero-section {
     background-image: url(../images/dsk-bg.png);
-    height: 100vh;
+    width: 100%;
+    height: auto;
   }
   .title {
     margin-top: 9rem;
@@ -389,6 +391,10 @@ p {
     p {
       font-size: 1rem;
     }
+  }
+  .speaker-area {
+    display: flex;
+    gap: 50px;
   }
   .speakers {
     h2 {
