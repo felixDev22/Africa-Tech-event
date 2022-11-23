@@ -267,22 +267,99 @@ p {
   .container {
     padding: 1rem 10%;
   }
-  .hero-section {
+  .mobile-menu {
+    display: none;
+  }
+  nav {
+    height: 90px;
+  }
+  .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    background: #272a31;
+  }
+  .top-nav img {
+    width: 8%;
+  }
+  .top-nav .user-login a {
+    color: #fff;
+  }
+  .top-nav .hero-section {
     background-image: url(../images/dsk-bg.png);
     height: 100vh;
   }
-  .title {
+  .top-nav .title {
     margin-top: 9rem;
   }
-  h2 {
+  .top-nav h2 {
     font-size: 3rem;
   }
-  .mobile-menu img {
+  .top-nav .mobile-menu img {
     display: none;
   }
-  .logo img {
+  .top-nav .logo img {
+    margin-top: 10px;
     display: flex;
     flex-direction: flex-start;
+  }
+  .top-nav .program {
+    background-size: 20px 20px;
+  }
+  .top-nav .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  .top-nav .program-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+  }
+  .top-nav .top {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top-nav .top img {
+    margin-top: 20px;
+    width: 70%;
+  }
+  .top-nav .box-content {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-nav .box-content h3 br {
+    display: none;
+  }
+  .top-nav .box-content p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .top-nav .reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .top-nav .register-btn {
+    display: flex;
+    background: #ed5342;
+    padding: 20px 40px;
+  }
+  .top-nav .register-btn a {
+    color: #fff;
   }
 }
 @media screen and (min-width: 1120px) {
@@ -312,11 +389,10 @@ p {
   .box p {
     font-size: 1.2rem;
   }
-}
-.date h3 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1.4rem;
+  .date h3 {
+    font-size: 2rem;
+  }
+  .date h3 p {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

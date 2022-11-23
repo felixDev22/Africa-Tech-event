@@ -227,7 +227,6 @@ p {
     font-size: 0.95rem;
   }
 }
-
 .portrait .image {
   position: relative;
   width: 80%;
@@ -266,25 +265,99 @@ p {
   .container {
     padding: 1rem 10%;
   }
-  .hero-section {
-    background-image: url(../images/dsk-bg.png);
-    height: 100vh;
-  }
-  .title {
-    margin-top: 9rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  .mobile-menu img {
+  .mobile-menu {
     display: none;
   }
-  .logo img {
+  nav {
+    height: 90px;
+  }
+  .top-nav {
     display: flex;
-    flex-direction: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    background: $secondary-color;
+    img {
+      width: 8%;
+    }
+    .user-login a {
+      color: $white;
+    }
+    .hero-section {
+      background-image: url(../images/dsk-bg.png);
+      height: 100vh;
+    }
+    .title {
+      margin-top: 9rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    .mobile-menu img {
+      display: none;
+    }
+    .logo img {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: flex-start;
+    }
+    .program {
+      background-size: 20px 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+
+    .program-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 200px;
+      padding-left: 20px;
+    }
+
+    .top {
+      flex-basis: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .top img {
+      margin-top: 20px;
+      width: 70%;
+    }
+    .box-content {
+      flex-basis: 40%;
+      @include flex;
+      h3 br {
+        display: none;
+      }
+      p {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+    .reg {
+      @include flex;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .register-btn {
+      display: flex;
+      background: $primary-color;
+      padding: 20px 40px;
+      a {
+        color: $white;
+      }
+    }
   }
 }
-
 @media screen and (min-width: 1120px) {
   .container {
     padding: 1rem 20%;
@@ -312,11 +385,10 @@ p {
       font-size: 1.2rem;
     }
   }
-}
-.date h3 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1.4rem;
+  .date h3 {
+    font-size: 2rem;
+    p {
+      font-size: 1rem;
+    }
+  }
 }
