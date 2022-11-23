@@ -225,11 +225,13 @@ p {
   font-size: 0.95rem;
 }
 .speakers-detail .image {
-  width: 50%;
+  width: 30%;
 }
 .speakers-detail .col-2 {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 20px;
 }
 .speakers-detail .text-area span {
   width: 20px;
@@ -253,17 +255,18 @@ p {
 .speakers-detail .partners-content .line {
   margin-top: 10px;
 }
+
 @media (min-width: 768px) {
-  .speakers-detail .container {
+  .container {
     padding: 1rem 10%;
   }
-  .speakers-detail .mobile-menu {
+  .mobile-menu {
     display: none;
   }
-  .speakers-detail nav {
+  nav {
     height: 90px;
   }
-  .speakers-detail .top-nav {
+  .top-nav {
     display: flex;
     align-items: center;
     width: 100%;
@@ -273,101 +276,100 @@ p {
     height: 25px;
     background: #272a31;
   }
-  .speakers-detail .user-login a {
+  .user-login a {
     color: #fff;
     font-size: 0.7rem;
     margin-left: 2rem;
   }
-  .speakers-detail .social-icons img {
+  .social-icons img {
     float: right;
     margin-right: 1rem;
     width: 3.5%;
   }
-  .speakers-detail .hero-section {
+  .hero-section {
     background-image: url(../images/dsk-bg.png);
     height: 100vh;
   }
-  .speakers-detail .title {
+  .title {
     margin-top: 9rem;
   }
-  .speakers-detail h2 {
+  h2 {
     font-size: 3rem;
   }
-  .speakers-detail .mobile-menu img {
+  .mobile-menu img {
     display: none;
   }
-  .speakers-detail .logo img {
+  .logo img {
     margin-top: 19px;
     display: flex;
     flex-direction: flex-start;
   }
-  .speakers-detail .program {
+  .program {
     background-size: 20px 20px;
     height: 550px;
   }
-  .speakers-detail .program h2 {
+  .program h2 {
     margin-top: 70px;
     font-size: 1.8rem;
   }
-  .speakers-detail .program .line {
+  .program .line {
     width: 70px;
     left: 47%;
   }
-  .speakers-detail .grid {
+  .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     margin-top: 15%;
   }
-  .speakers-detail .program-item {
+  .program-item {
     display: flex;
     flex-direction: column;
     height: auto;
     padding-left: 20px;
     margin-top: -30px;
   }
-  .speakers-detail .program-item .top img {
+  .program-item .top img {
     width: 80%;
   }
-  .speakers-detail .top {
+  .top {
     flex-basis: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .speakers-detail .box-content {
+  .box-content {
     flex-basis: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .speakers-detail .box-content h3 br {
+  .box-content h3 br {
     display: none;
   }
-  .speakers-detail .box-content p {
+  .box-content p {
     font-size: 0.9rem;
     text-align: center;
   }
-  .speakers-detail .reg {
+  .reg {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 20px;
   }
-  .speakers-detail .register-btn {
+  .register-btn {
     display: flex;
     background: #ed5342;
     padding: 20px 40px;
   }
-  .speakers-detail .register-btn a {
+  .register-btn a {
     color: #fff;
   }
-  .speakers-detail .speakers-detail {
+  .speakers-detail {
     gap: 10px;
   }
 }
-
 @media screen and (min-width: 1120px) {
   .container {
     padding: 1rem 20%;

@@ -227,11 +227,13 @@ p {
     font-size: 0.95rem;
   }
   .image {
-    width: 50%;
+    width: 30%;
   }
   .col-2 {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 20px;
   }
   .text-area span {
     width: 20px;
@@ -253,121 +255,121 @@ p {
       margin-top: 10px;
     }
   }
+}
+// -------------Media-query---------------
 
-  // -------------Media-query---------------
-
-  @media (min-width: 768px) {
-    .container {
-      padding: 1rem 10%;
-    }
-    .mobile-menu {
-      display: none;
-    }
-    nav {
-      height: 90px;
-    }
-    .top-nav {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 25px;
-      background: $secondary-color;
-    }
-    .user-login a {
-      color: $white;
-      font-size: 0.7rem;
-      margin-left: 2rem;
-    }
-    .social-icons img {
-      float: right;
-      margin-right: 1rem;
-      width: 3.5%;
-    }
-    .hero-section {
-      background-image: url(../images/dsk-bg.png);
-      height: 100vh;
-    }
-    .title {
-      margin-top: 9rem;
-    }
+@media (min-width: 768px) {
+  .container {
+    padding: 1rem 10%;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  nav {
+    height: 90px;
+  }
+  .top-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    background: $secondary-color;
+  }
+  .user-login a {
+    color: $white;
+    font-size: 0.7rem;
+    margin-left: 2rem;
+  }
+  .social-icons img {
+    float: right;
+    margin-right: 1rem;
+    width: 3.5%;
+  }
+  .hero-section {
+    background-image: url(../images/dsk-bg.png);
+    height: 100vh;
+  }
+  .title {
+    margin-top: 9rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .mobile-menu img {
+    display: none;
+  }
+  .logo img {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: flex-start;
+  }
+  .program {
+    background-size: 20px 20px;
+    height: 550px;
     h2 {
-      font-size: 3rem;
+      margin-top: 70px;
+      font-size: 1.8rem;
     }
-    .mobile-menu img {
-      display: none;
-    }
-    .logo img {
-      margin-top: 19px;
-      display: flex;
-      flex-direction: flex-start;
-    }
-    .program {
-      background-size: 20px 20px;
-      height: 550px;
-      h2 {
-        margin-top: 70px;
-        font-size: 1.8rem;
-      }
-      .line {
-        width: 70px;
-        left: 47%;
-      }
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 10px;
-      margin-top: 15%;
-    }
-
-    .program-item {
-      display: flex;
-      flex-direction: column;
-      height: auto;
-      padding-left: 20px;
-      margin-top: -30px;
-    }
-    .program-item .top img {
-      width: 80%;
-    }
-    .top {
-      flex-basis: fit-content;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .box-content {
-      flex-basis: fit-content;
-      @include flex;
-      h3 br {
-        display: none;
-      }
-      p {
-        font-size: 0.9rem;
-        text-align: center;
-      }
-    }
-    .reg {
-      @include flex;
-      margin-top: 30px;
-      margin-bottom: 20px;
-    }
-    .register-btn {
-      display: flex;
-      background: $primary-color;
-      padding: 20px 40px;
-      a {
-        color: $white;
-      }
-    }
-    .speakers-detail {
-      gap: 10px;
+    .line {
+      width: 70px;
+      left: 47%;
     }
   }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 15%;
+  }
+
+  .program-item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 20px;
+    margin-top: -30px;
+  }
+  .program-item .top img {
+    width: 80%;
+  }
+  .top {
+    flex-basis: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-content {
+    flex-basis: fit-content;
+    @include flex;
+    h3 br {
+      display: none;
+    }
+    p {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  .reg {
+    @include flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .register-btn {
+    display: flex;
+    background: $primary-color;
+    padding: 20px 40px;
+    a {
+      color: $white;
+    }
+  }
+  .speakers-detail {
+    gap: 10px;
+  }
 }
+
 @media screen and (min-width: 1120px) {
   .container {
     padding: 1rem 20%;
