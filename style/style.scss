@@ -36,11 +36,10 @@ nav {
   align-items: center;
   background: $white;
   width: 100%;
-  height: 70px;
-  padding: 1rem 8%;
+  height: 90px;
+
   .logo img {
     width: 85%;
-    margin-left: -25%;
   }
 }
 .desktop-only {
@@ -282,8 +281,13 @@ p {
   }
 
   nav {
-    height: 90px;
+    position: relative;
+    box-shadow: 0px 7px 9px 0px rgb(0, 0, 0, 0.2);
+    height: 98px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
   .top-nav {
     display: flex;
@@ -315,162 +319,158 @@ p {
   }
   .menu-links {
     display: flex;
+    align-items: center;
+    margin-top: 1rem;
   }
-  .menu-links ul li {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: flex-end;
-    margin: 10px 20px;
+  .menu-links ul {
+    float: right;
   }
-  .menu-links ul li a {
+  .menu-links a {
+    text-decoration: none;
     color: $secondary-color;
     font-size: 1rem;
+    margin: 10px 20px;
+    font-weight: bold;
   }
-  .title {
-    margin-top: 9rem;
+  .menu-links a:hover {
+    color: $primary-color;
   }
+}
+.title {
+  margin-top: 9rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.mobile-menu img {
+  display: none;
+}
+#logo {
+  margin-top: 19px;
+}
+.program {
+  background-size: 20px 20px;
+  height: 550px;
   h2 {
-    font-size: 3rem;
+    margin-top: 70px;
+    font-size: 1.8rem;
   }
-  .mobile-menu img {
+  .line {
+    width: 70px;
+    left: 47%;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 15%;
+}
+
+.program-item {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-left: 20px;
+  margin-top: -100px;
+}
+.program-item .top img {
+  width: 80%;
+}
+.top {
+  flex-basis: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-content {
+  flex-basis: fit-content;
+  @include flex;
+  h3 br {
     display: none;
   }
-  .logo img {
-    margin-top: 19px;
-    display: flex;
-    flex-direction: flex-start;
+  p {
+    font-size: 0.9rem;
+    text-align: center;
   }
-  .program {
-    background-size: 20px 20px;
-    height: 550px;
-    h2 {
-      margin-top: 70px;
-      font-size: 1.8rem;
+}
+.reg {
+  @include flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.register-btn {
+  display: flex;
+  background: $primary-color;
+  padding: 20px 40px;
+  a {
+    color: $white;
+  }
+}
+.speaker-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 35px;
+}
+.col-2 {
+  width: 50%;
+}
+.speakers-detail {
+  gap: 10px;
+}
+.speakers-detail {
+  .image {
+    width: 25%;
+  }
+  .col-2 {
+    h3 {
+      font-size: 1rem;
     }
-    .line {
-      width: 70px;
-      left: 47%;
+  }
+}
+.col-2 {
+  p {
+    font-size: 1rem;
+  }
+}
+.speakers {
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: $white;
+    font-size: 1rem;
+    span {
+      left: 45%;
     }
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    margin-top: 15%;
-  }
+}
 
-  .program-item {
+@media screen and (min-width: 1120px) {
+  #logo {
     display: flex;
-    flex-direction: column;
-    height: auto;
-    padding-left: 20px;
-    margin-top: -100px;
   }
-  .program-item .top img {
-    width: 80%;
+  h1 {
+    font-size: 5.6rem;
+    font-weight: 900;
+    line-height: 5rem;
+    color: transparent;
+    letter-spacing: 1px;
   }
-  .top {
-    flex-basis: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .box-content {
-    flex-basis: fit-content;
-    @include flex;
-    h3 br {
-      display: none;
-    }
+  .box {
+    width: 65%;
+    height: 120px;
+    padding: 2%;
     p {
-      font-size: 0.9rem;
-      text-align: center;
+      font-size: 1.2rem;
     }
   }
-  .reg {
-    @include flex;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  .register-btn {
-    display: flex;
-    background: $primary-color;
-    padding: 20px 40px;
-    a {
-      color: $white;
-    }
-  }
-  .speaker-area {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 35px;
-  }
-  .col-2 {
-    width: 50%;
-  }
-  .speakers-detail {
-    gap: 10px;
-  }
-  .speakers-detail {
-    .image {
-      width: 25%;
-    }
-    .col-2 {
-      h3 {
-        font-size: 1rem;
-      }
-    }
-  }
-  .col-2 {
+  .date h3 {
+    font-size: 2rem;
     p {
-      font-size: 1rem;
-    }
-  }
-  .speakers {
-    h2 {
-      margin-top: 50px;
-      margin-bottom: 40px;
-      text-align: center;
-      color: $white;
-      font-size: 1rem;
-      span {
-        left: 45%;
-      }
-    }
-  }
-  @media screen and (min-width: 1120px) {
-    .container {
-      padding: 1rem 15%;
-    }
-    nav {
-      position: relative;
-      box-shadow: 0px 7px 9px 0px rgb(0, 0, 0, 0.2);
-    }
-    #logo {
-      margin-left: -85%;
-      display: flex;
-    }
-    h1 {
-      font-size: 4.6rem;
-      font-weight: 900;
-      line-height: 5rem;
-      color: transparent;
-      letter-spacing: 1px;
-    }
-    .box {
-      width: 65%;
-      height: 120px;
-      padding: 2%;
-      p {
-        font-size: 1.2rem;
-      }
-    }
-    .date h3 {
-      font-size: 2rem;
-      p {
-        font-size: 3rem;
-      }
+      font-size: 3rem;
     }
   }
 }
