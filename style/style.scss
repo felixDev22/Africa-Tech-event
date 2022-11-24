@@ -336,6 +336,72 @@ p {
   flex-basis: 60%;
 }
 
+// -----------------------About-page -------------------
+
+.about-section {
+  background-image: url(../images/mobile-bkg-fa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.about-title {
+  padding-top: 2.5rem;
+  h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.about-box {
+  margin-left: 30px;
+  margin-right: 30px;
+  border: solid 0.2rem #fff;
+  padding: 0.5rem;
+  background: $white;
+  margin-bottom: 1.5rem;
+  p {
+    line-height: 1.3rem;
+  }
+}
+.reveal {
+  background: $white;
+  height: 40vh;
+  text-align: center;
+  h2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+  .new-logo img {
+    margin-top: 50px;
+    width: 60%;
+  }
+}
+.previous-content {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: $secondary-color;
+  font-size: 0.7rem;
+  h2 {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .event-pic img {
+    width: 20%;
+  }
+}
+
 // -------------Media-query---------------
 
 @media (min-width: 768px) {
