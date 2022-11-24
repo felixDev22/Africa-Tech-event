@@ -342,6 +342,16 @@ p {
   .container {
     padding: 1rem 10%;
   }
+  @mixin subhead {
+    h2 {
+      margin-top: 60px;
+      font-size: 1.8rem;
+    }
+    .line {
+      width: 70px;
+      left: 49%;
+    }
+  }
 
   nav {
     position: relative;
@@ -459,15 +469,8 @@ p {
   .program {
     background-size: 20px 20px;
     height: 550px;
-    margin-top: -39px;
-    h2 {
-      margin-top: 60px;
-      font-size: 1.8rem;
-    }
-    .line {
-      width: 70px;
-      left: 49%;
-    }
+    margin-top: -50px;
+    @include subhead;
   }
   .grid {
     display: grid;
@@ -498,7 +501,8 @@ p {
       display: none;
     }
     p {
-      font-size: 0.9rem;
+      font-size: 1rem;
+      line-height: 1.4rem;
       text-align: center;
     }
   }
@@ -515,12 +519,24 @@ p {
       color: $white;
     }
   }
+  .speakers {
+    h2 {
+      margin-top: 60px;
+      font-size: 1.8rem;
+      color: $secondary-color;
+    }
+    .line {
+      width: 70px;
+      left: 49%;
+    }
+  }
   .speaker-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 35px;
+    margin-top: 90px;
   }
   .col-2 {
     width: 50%;
@@ -543,29 +559,29 @@ p {
       font-size: 1rem;
     }
   }
-  .speakers {
-    h2 {
-      margin-top: 50px;
-      margin-bottom: 40px;
-      text-align: center;
-      color: $white;
-      font-size: 1rem;
-      span {
-        left: 45%;
-      }
-    }
-  }
+
   .partners {
     width: 100%;
-    height: 50vh;
-    margin-top: 150px;
-    padding-top: 0.5rem;
+    height: 40vh;
+    margin-top: 300px;
+    padding-top: 0.3rem;
     @include flex;
     text-align: center;
     .partners-logos img {
       width: 10%;
       margin-left: 30px;
       margin-top: 20px;
+    }
+  }
+  .partners-content {
+    h2 {
+      margin-top: 40px;
+      font-size: 1.8rem;
+      color: $white;
+    }
+    .line {
+      width: 70px;
+      left: 48%;
     }
   }
   .partners-logos {
