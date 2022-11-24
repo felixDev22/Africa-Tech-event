@@ -375,27 +375,25 @@ p {
   title {
     margin-top: 8rem;
   }
-  .main-menu {
+  #close {
     display: none;
   }
-  .desk-links {
+  .main-menu {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    color: #ed5342;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 6%;
+    margin-top: -15px;
   }
-  .desk-links {
+  .main-links {
     display: flex;
-    margin-top: 1rem;
   }
-  .desk-links ul li {
-    margin: 10px 20px;
-    display: inline-flex;
+  .main-links li {
+    margin-right: 30px;
   }
-  .desk-links li a {
-    color: #272a31;
-    text-decoration: none;
-    font-weight: 400;
+  .main-links li a {
+    font-size: 1.2rem;
   }
   .active a {
     color: #ed5342;
