@@ -446,6 +446,11 @@ p {
   .speakers h2 span {
     left: 45%;
   }
+  .partners {
+    background: #272a31;
+    width: 100%;
+    height: 40vh;
+  }
 }
 @media screen and (min-width: 1120px) {
   #logo {
