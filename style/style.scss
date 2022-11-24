@@ -286,7 +286,7 @@ p {
   background: $secondary-color;
   width: 100%;
   height: auto;
-  margin-top: 380px;
+  margin-top: 180px;
   text-align: center;
 }
 .partners-content {
@@ -466,7 +466,7 @@ p {
     }
     .line {
       width: 70px;
-      left: 47%;
+      left: 49%;
     }
   }
   .grid {
@@ -555,28 +555,40 @@ p {
       }
     }
   }
+  .partners {
+    width: 100%;
+    height: 50vh;
+    margin-top: 150px;
+    padding-top: 0.5rem;
+    @include flex;
+    text-align: center;
+    .partners-logos img {
+      width: 10%;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+  }
+  .partners-logos {
+    @include flex;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+  .footer-details {
+    @include flex;
+  }
+  .common {
+    flex-basis: 50%;
+  }
+  .common img {
+    width: 40%;
+  }
+  .copyright {
+    flex-basis: 60%;
+  }
 }
-// .partners {
-//   background: $secondary-color;
-//   width: 100%;
-//   height: 40vh;
-//   margin-top: 150px;
-//   padding-top: 0.5rem;
-//   @include flex;
-//   text-align: center;
-// }
-// .partners-logos {
-//   @include flex;
-// }
-
-// .partners-logos img {
-//   width: 12%;
-//   padding: 20px 30px;
-// }
-
-// @media screen and (min-width: 1120px) {
-//   #logo {
-//     display: flex;
-//   }
-
-// }
