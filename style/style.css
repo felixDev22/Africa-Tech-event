@@ -348,6 +348,7 @@ p {
   .top-nav {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     width: 100%;
     position: absolute;
     top: 0;
