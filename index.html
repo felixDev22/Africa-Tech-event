@@ -35,9 +35,7 @@
         <div class="mobile-menu" id="menu-bar">
           <a href='#'><img src="./images/hamburger.png" onclick=showMenu()  alt="menu" id='menu' /></a>
         </div>
-        <div class="logo">
-         <a href='index.html'><img src="./images/Africa-tech-logo.png" id='logo' alt="logo" /></a>
-        </div>
+        
         
         <div class='main-menu' id='main-menu' >
           <img src="./images/close.png"  id='close' onclick=close() alt="close" /></a>
@@ -60,9 +58,14 @@
           </ul>
         </div>
 
-        <ul class='menu-links'>
-            <li>
-              <a href="index.html">About</a>
+            <div class='desk-links'>
+            <div class="logo">
+         <a href='index.html'><img src="./images/Africa-tech-logo.png" id='logo' alt="logo" /></a>
+        </div>
+        <div class="menulink">
+        <ul>
+            <li >
+              <a href="index.html" class="active">About</a>
             </li>
             <li>
               <a href=".program.html">Program</a>
@@ -77,11 +80,12 @@
               <a href="program.html">News</a>
             </li>
           </ul>
-      
+        </div>
+      </div>
         
       </nav>
     </header>
-
+<!-- --------------------- HERO SECTION ----------------------- -->
     <main>
       <section class="hero-section">
         <div class="container">
@@ -104,6 +108,8 @@
           </div>
         </div>
       </section>
+<!-- --------------------- HERO SECTION ENDS----------------------- -->
+<!-- --------------------- PROGRAM SECTION ----------------------- -->
 
       <section class="program container">
 
@@ -182,8 +188,9 @@
         <button class='register-btn'><a href="index.html">Registration for projects</i></a>
         </button>
         </div>
-    
       </section>
+      <!-- --------------------- PROGRAM SECTION ENDS----------------------- -->
+      <!-- --------------------- SPEAKERS SECTION ----------------------- -->
 
       <section class='speakers container'>
         <h2>Feature Speakers</h2>
@@ -194,13 +201,17 @@
       
       </section>
 
-      <section id='partners'>
+      <!-- --------------------- SPEAKERS SECTION ENDS ----------------------- -->
+      <!-- --------------------- PARTNERS SECTION ----------------------- -->
+
+      <section class='partners container'>
         <div class='partners-content'>
         <h2>Partners</h2>
-        <span class="line"></span>
+        <span></span>
           </div>
 
       </section>
+      <!-- --------------------- PARTNERS SECTION ENDS ----------------------- -->
 
 
       <script src="script.js"></script>
