@@ -96,6 +96,9 @@ nav {
 .mobile-menu img {
   width: 20%;
 }
+.brand {
+  margin-left: -35px;
+}
 .brand img {
   width: 85%;
 }
@@ -219,15 +222,15 @@ p {
     flex-basis: 70%;
   }
 }
-.reg {
-  @include flex;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
+
 .register-btn {
+  margin: 20px auto;
   display: flex;
+  width: 280px;
+  text-align: center;
   background: $primary-color;
   padding: 20px 40px;
+  font-weight: bold;
   a {
     color: $white;
   }
@@ -282,13 +285,13 @@ p {
 .partners {
   background: $secondary-color;
   width: 100%;
-  height: 30vh;
-  margin-top: 220px;
+  height: auto;
+  margin-top: 380px;
   text-align: center;
 }
 .partners-content {
   h2 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 40px;
     text-align: center;
     color: $white;
@@ -313,8 +316,12 @@ p {
 .footer {
   background: $white;
   width: 100%;
-  height: 20vh;
+  height: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
+  p {
+    font-size: 0.7rem;
+  }
 }
 .footer-details {
   @include flex;
@@ -367,7 +374,7 @@ p {
     width: 3.5%;
   }
   .hero-section {
-    background-image: url(../images/desktop-bg-fa.png);
+    background-image: url(../images/desktop-bg-fa2.png);
     width: 100%;
     height: 100vh;
     margin-bottom: 40px;
@@ -426,6 +433,8 @@ p {
     width: 65%;
     height: 120px;
     padding: 2%;
+    border: solid 0.4rem #fff;
+
     p {
       font-size: 1.2rem;
     }
