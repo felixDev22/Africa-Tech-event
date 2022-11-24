@@ -64,9 +64,9 @@ speakersData.forEach((speaker) => {
 
 // --------------------- Mobile-Menu------------------
 
-const mobileMenu = document.getElementById('main-menu');
+const mobileMenu = document.querySelector('.main-menu');
 const closeBtn = document.getElementById('close');
-const hamburger = document.getElementById('menu');
+const hamburger = document.getElementById('menu-bar');
 
 hamburger.onclick = function showMenu() {
   mobileMenu.style.display = 'block';

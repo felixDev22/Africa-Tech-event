@@ -76,7 +76,15 @@ nav .logo img {
 }
 
 .mobile-menu img {
-  width: 25%;
+  width: 20%;
+}
+
+.brand img {
+  width: 85%;
+}
+
+#close img {
+  width: 5%;
 }
 
 .menu-links {
