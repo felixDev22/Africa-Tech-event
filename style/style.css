@@ -212,6 +212,7 @@ p {
 .speakers {
   width: 100%;
   height: 600px;
+  margin-bottom: 80px;
 }
 .speakers h2 {
   margin-top: 20px;
@@ -235,7 +236,7 @@ p {
   font-size: 1rem;
 }
 .speakers-detail .image {
-  width: 20%;
+  width: 25%;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -255,19 +256,56 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.speakers-detail #partners {
+
+.partners {
+  background: #272a31;
+  width: 100%;
+  height: 30vh;
+  margin-top: 220px;
+  text-align: center;
+}
+
+.partners-content h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.partners-content h2 .line {
+  width: 40px;
+  height: 2px;
+  display: flex;
+  background: #ed5342;
+  position: absolute;
+  margin-top: -29px;
+  left: 45%;
+}
+.partners-content .partners-logos {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partners-content .partners-logos img {
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.partners-content .footer {
+  background: #fff;
+  width: 100%;
+  height: 40vh;
+  margin-top: 220px;
+}
+.partners-content .footer-details {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: auto;
-  background-color: #272a31;
 }
-.speakers-detail .partners-content {
-  margin-top: 50px;
-}
-.speakers-detail .partners-content .line {
-  margin-top: 10px;
+.partners-content .footer-details img {
+  width: 20%;
 }
 
 @media (min-width: 768px) {
@@ -466,23 +504,5 @@ p {
   }
   .speakers h2 span {
     left: 45%;
-  }
-  .partners {
-    background: #272a31;
-    width: 100%;
-    height: 40vh;
-    margin-top: 150px;
-    padding-top: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .partners-logos img {
-    width: 10%;
-    padding: 10px 20px;
-  }
-  .svg {
-    color: #4e5050;
   }
 }/*# sourceMappingURL=style.css.map */
