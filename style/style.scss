@@ -29,12 +29,21 @@ $grey-back: #f7f7f8;
   margin-top: -29px;
   left: 45%;
 }
-
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 body {
   font-family: $font;
 }
 .container {
   padding: 1rem 8%;
+}
+.container-2 {
+  padding-left: 8%;
+  padding-right: 8%;
 }
 a {
   text-decoration: none;
@@ -294,20 +303,26 @@ p {
     margin-left: 30px;
     margin-top: 20px;
   }
-  .footer {
-    background: $white;
-    width: 100%;
-    height: 40vh;
-    margin-top: 220px;
-  }
-  .footer-details {
-    @include flex; 
-  }
-  .common img {
-    width: 5%;
+}
+.footer {
+  background: $white;
+  width: 100%;
+  height: 20vh;
+  margin-top: 20px;
+}
+.footer-details {
+  @include flex;
+}
+.common {
+  flex-basis: 50%;
+}
+.common img {
+  width: 60%;
+}
+.copyright {
+  flex-basis: 60%;
 }
 
-}
 // -------------Media-query---------------
 
 @media (min-width: 768px) {
