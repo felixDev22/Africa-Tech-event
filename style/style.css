@@ -383,24 +383,31 @@ p {
     background: none;
     width: 100%;
     justify-content: flex-end;
-    padding-right: 6%;
+    padding-right: 5%;
     margin-top: -15px;
   }
   .main-links {
     display: flex;
   }
   .main-links li {
-    margin-right: 30px;
+    margin-right: 55px;
   }
   .main-links li a {
     font-size: 1.2rem;
+    font-weight: 300;
   }
   .main-menu ul li a {
-    color: #ed5342;
+    color: #272a31;
   }
   .active a {
     color: #ed5342;
     font-weight: 400;
+  }
+  .highlight {
+    border-style: solid;
+    border-color: #ed5342;
+    border-width: 4px;
+    padding: 0.5rem;
   }
   .menu-links {
     display: flex;
