@@ -380,7 +380,7 @@ p {
   }
   .main-menu {
     display: flex;
-    color: #ed5342;
+    background: none;
     width: 100%;
     justify-content: flex-end;
     padding-right: 6%;
@@ -394,6 +394,9 @@ p {
   }
   .main-links li a {
     font-size: 1.2rem;
+  }
+  .main-menu ul li a {
+    color: #ed5342;
   }
   .active a {
     color: #ed5342;

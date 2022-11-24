@@ -380,7 +380,7 @@ p {
   }
   .main-menu {
     display: flex;
-    color: $primary-color;
+    background: none;
     width: 100%;
     justify-content: flex-end;
     padding-right: 6%;
@@ -395,6 +395,9 @@ p {
         font-size: 1.2rem;
       }
     }
+  }
+  .main-menu ul li a {
+    color: $primary-color;
   }
 
   .active a {
