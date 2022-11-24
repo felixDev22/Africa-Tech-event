@@ -369,11 +369,11 @@ p {
   .hero-section {
     background-image: url(../images/desktop-bg-fa.png);
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin-bottom: 40px;
   }
-  title {
-    margin-top: 8rem;
+  .title {
+    margin-top: 15%;
   }
   #close {
     display: none;
