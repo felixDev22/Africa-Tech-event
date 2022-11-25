@@ -73,8 +73,8 @@ nav {
   background: $secondary-color;
   opacity: 90%;
   padding: 35px;
-  width: 350px;
-  height: 400px;
+  width: 100%;
+  height: 100vh;
   left: 0;
   top: 0px;
 }
@@ -738,14 +738,13 @@ p {
       padding: 1.6rem;
       margin-top: 30px;
       margin-bottom: 130px;
-
       width: 40%;
     }
   }
   .previous-content {
     h2 {
       font-size: 1.5rem;
-      margin-top: 290px;
+      margin-top: 190px;
     }
     p {
       margin-top: 10px;
@@ -767,9 +766,5 @@ p {
     p {
       font-size: 1rem;
     }
-  }
-  .partners-logos img {
-    width: 10%;
-    margin-bottom: 30px;
   }
 }

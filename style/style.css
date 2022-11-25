@@ -51,8 +51,8 @@ nav .logo img {
   background: #272a31;
   opacity: 90%;
   padding: 35px;
-  width: 350px;
-  height: 400px;
+  width: 100%;
+  height: 100vh;
   left: 0;
   top: 0px;
 }
@@ -729,7 +729,7 @@ p {
   }
   .previous-content h2 {
     font-size: 1.5rem;
-    margin-top: 290px;
+    margin-top: 190px;
   }
   .previous-content p {
     margin-top: 10px;
@@ -748,9 +748,5 @@ p {
   }
   .text p {
     font-size: 1rem;
-  }
-  .partners-logos img {
-    width: 10%;
-    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
