@@ -47,7 +47,7 @@ p {
 }
 
 .copyright p {
-  color: #fff;
+  color: #272a31;
   font-size: 0.8em;
 }
 
@@ -130,6 +130,11 @@ nav .logo img {
 .program-item .top img {
   width: 30%;
   margin-right: 0.5rem;
+}
+
+.program-item:hover {
+  transform: scale(1);
+  border: solid 0.1rem #fff;
 }
 
 .partners-content .partners-logos img {
@@ -309,6 +314,12 @@ h2 {
   font-weight: bold;
 }
 
+.register-btn:hover {
+  background: #272a31;
+  box-shadow: 0 8 10px rgba(rgb(237, 83, 66));
+  border: solid 0.1rem #fff;
+}
+
 .speakers {
   width: 100%;
   height: 600px;
@@ -342,6 +353,10 @@ h2 {
   width: 25%;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.speakers-detail .image:hover {
+  transform: scale(1.3);
 }
 
 .speakers-detail .col-2 {
