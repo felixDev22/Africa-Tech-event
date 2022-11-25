@@ -749,4 +749,7 @@ p {
   .text p {
     font-size: 1rem;
   }
+  .abt-partner {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
