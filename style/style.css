@@ -1,5 +1,3 @@
-/* stylelint-disable csstree/validator */
-/* stylelint-disable indentation */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
 
 * {
@@ -41,12 +39,17 @@ nav {
   flex-basis: 50%;
 }
 
+.copyright p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
 .common img {
   width: 60%;
 }
 
 .abt-common img {
-  margin-left: 50px;
+  margin-left: 20px;
   width: 60%;
 }
 
@@ -79,6 +82,10 @@ nav .logo img {
 
 .desktop-only {
   display: none;
+}
+
+.mobile {
+  display: flex;
 }
 
 .top-nav {
@@ -153,12 +160,12 @@ h1 {
   font-size: 2.6rem;
   font-weight: 900;
   letter-spacing: 1px;
-  background-image:
- linear-gradient(
-      rgba(0, 0, 255, 0.5),
-      rgba(255, 255, 0, 0.5)
+  background-image: linear-gradient(
+      45deg,
+      rgba(235, 71, 53, 0.939),
+      rgba(252, 44, 7, 0.6)
     ),
-    url('../../media/examples/lizard.png');
+    url(../images/comp.png);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -180,7 +187,7 @@ h2 {
 }
 
 p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .date {
@@ -399,6 +406,11 @@ p {
   flex-basis: 50%;
 }
 
+.abt-copyright p {
+  color: #fff;
+  flex-basis: 50%;
+}
+
 .about-section {
   background-image: url(../images/mobile-bkg-fa.png);
   background-repeat: no-repeat;
@@ -474,16 +486,24 @@ p {
   padding: 20px;
   width: 100%;
   height: auto;
-  background: #fff;
+  background: #272a31;
 }
 
 .abt-common {
   flex-basis: 50%;
 }
-
+/* --------------------------------Desktop-section----------------------------- */
 @media (min-width: 768px) {
   .container {
     padding: 1rem 10%;
+  }
+
+  .desktop-only {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
   }
 
   nav {
@@ -820,6 +840,8 @@ p {
     flex-basis: 60%;
   }
 
+  /* --------------------------------About-section----------------------------- */
+
   .about-section {
     background-image: url(../images/desktop-bg-fa.png);
     height: 100vh;
@@ -910,10 +932,12 @@ p {
   }
 }
 
+/* --------------------------------Animation-section----------------------------- */
+
 .title,
 .about-title {
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-name: slide-in;
   animation-name: slide-in;
 }
