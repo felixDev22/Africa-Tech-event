@@ -1,3 +1,6 @@
+/* stylelint-disable declaration-colon-newline-after */
+/* stylelint-disable indentation */
+/* stylelint-disable csstree/validator */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
 
 * {
@@ -164,8 +167,7 @@ h1 {
   font-size: 2.6rem;
   font-weight: 900;
   letter-spacing: 1px;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       45deg,
       rgba(235, 71, 53, 0.939),
       rgba(252, 44, 7, 0.6)
