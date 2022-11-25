@@ -390,8 +390,8 @@ p {
   font-size: 0.7rem;
 }
 .previous-content h2 {
-  margin-top: 50px;
-  font-size: 1.5rem;
+  margin-top: 150px;
+  font-size: 1rem;
   font-weight: bold;
   color: #272a31;
 }
@@ -399,8 +399,22 @@ p {
   font-size: 0.8rem;
   margin-bottom: 1.5rem;
 }
-.previous-content .event-pic img {
-  width: 20%;
+
+.pic-1 {
+  position: relative;
+  margin: 0 auto;
+}
+
+.text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-pic img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
