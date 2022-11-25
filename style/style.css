@@ -722,4 +722,19 @@ p {
     margin-top: 30px;
     width: 40%;
   }
+  .previous-content h2 {
+    font-size: 1.5rem;
+  }
+  .previous-content p {
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .event-area {
+    margin-bottom: 25px;
+    display: flex;
+  }
+  .event-pic img {
+    width: 95%;
+  }
 }/*# sourceMappingURL=style.css.map */
