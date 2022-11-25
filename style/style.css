@@ -39,6 +39,10 @@ nav {
   flex-basis: 50%;
 }
 
+p {
+  font-size: 0.8rem;
+}
+
 .copyright p {
   color: #fff;
   font-size: 0.8em;
@@ -160,7 +164,8 @@ h1 {
   font-size: 2.6rem;
   font-weight: 900;
   letter-spacing: 1px;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       45deg,
       rgba(235, 71, 53, 0.939),
       rgba(252, 44, 7, 0.6)
@@ -184,10 +189,6 @@ h2 {
   border: solid 0.2rem #fff;
   padding: 0.5rem;
   background: rgb(247, 247, 248);
-}
-
-p {
-  font-size: 0.8rem;
 }
 
 .date {
@@ -271,6 +272,11 @@ p {
 .abt-footer p {
   font-size: 0.5rem;
   color: #272a31;
+}
+
+.abt-copyright p {
+  color: #fff;
+  flex-basis: 50%;
 }
 
 .program-item h3 p {
@@ -406,11 +412,6 @@ p {
   flex-basis: 50%;
 }
 
-.abt-copyright p {
-  color: #fff;
-  flex-basis: 50%;
-}
-
 .about-section {
   background-image: url(../images/mobile-bkg-fa.png);
   background-repeat: no-repeat;
@@ -492,6 +493,7 @@ p {
 .abt-common {
   flex-basis: 50%;
 }
+
 /* --------------------------------Desktop-section----------------------------- */
 @media (min-width: 768px) {
   .container {
