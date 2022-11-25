@@ -484,6 +484,12 @@ p {
     margin-right: 1rem;
     width: 3.5%;
   }
+  .brand img {
+    position: relative;
+    width: 85%;
+    cursor: pointer;
+    z-index: 500;
+  }
   .hero-section {
     background-image: url(../images/desktop-bg-fa2.png);
     width: 100%;
