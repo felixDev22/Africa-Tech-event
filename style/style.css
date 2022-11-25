@@ -422,7 +422,7 @@ p {
 }
 
 .about-title {
-  padding-top: 2.5rem;
+  padding: 2rem;
 }
 
 .about-title h1 {
@@ -848,7 +848,7 @@ p {
   }
 
   .about-title {
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
 
   .about-title h1 {
