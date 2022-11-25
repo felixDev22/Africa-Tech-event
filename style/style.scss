@@ -689,4 +689,19 @@ p {
   .copyright {
     flex-basis: 60%;
   }
+
+  // -----------------------About-page -------------------
+
+  .about-section {
+    background-image: url(../images/desktop-bg-fa.png);
+    height: 100h;
+  }
+  .about-title {
+    padding-top: 4rem;
+    h1 {
+      font-size: 4rem;
+      line-height: 3.8rem;
+      margin-bottom: 2rem;
+    }
+  }
 }

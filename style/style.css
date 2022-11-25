@@ -680,4 +680,16 @@ p {
   .copyright {
     flex-basis: 60%;
   }
+  .about-section {
+    background-image: url(../images/desktop-bg-fa.png);
+    height: 100h;
+  }
+  .about-title {
+    padding-top: 4rem;
+  }
+  .about-title h1 {
+    font-size: 4rem;
+    line-height: 3.8rem;
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
