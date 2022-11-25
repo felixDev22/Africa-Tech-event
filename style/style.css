@@ -400,21 +400,21 @@ p {
   margin-bottom: 1.5rem;
 }
 
-.pic-1 {
+.event-pic {
+  text-align: center;
   position: relative;
-  margin: 0 auto;
-}
-
-.text {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  color: #fff;
 }
 
 .event-pic img {
   width: 100%;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 768px) {

@@ -398,23 +398,20 @@ p {
     margin-bottom: 1.5rem;
   }
 }
+
 .event-pic {
-  // @include flex-column;
-}
-.pic-1 {
+  text-align: center;
   position: relative;
-  margin: 0 auto;
+  color: $white;
+}
+.event-pic img {
+  width: 100%;
 }
 .text {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.event-pic img {
-  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 // -------------Media-query---------------
