@@ -692,4 +692,14 @@ p {
     line-height: 3.8rem;
     margin-bottom: 2rem;
   }
+  .about-box {
+    margin: 0 10%;
+    border: solid 0.2rem #fff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .about-box p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
