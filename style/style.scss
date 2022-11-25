@@ -714,4 +714,27 @@ p {
       line-height: 1.7rem;
     }
   }
+  .info {
+    p {
+      font-size: 1rem;
+      line-height: 1.7rem;
+    }
+  }
+  br {
+    display: none;
+  }
+  .reveal {
+    margin: 0 10%;
+    height: 40vh;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+    .new-logo img {
+      border: solid 1px rgb(174, 174, 174);
+      padding: 1.6rem;
+      margin-top: 30px;
+      width: 40%;
+    }
+  }
 }
