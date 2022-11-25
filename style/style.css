@@ -752,4 +752,42 @@ p {
   .abt-partner {
     display: none;
   }
+  .abt-footer {
+    height: 90px;
+    background: #272a31;
+  }
+  .abt-footer-details {
+    display: flex;
+  }
+  .abt-common img {
+    width: 15%;
+  }
+}
+.title {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: slide-in;
+          animation-name: slide-in;
+}
+
+@-webkit-keyframes slide-in {
+  from {
+    margin-left: 100%;
+    height: 300%;
+  }
+  to {
+    margin-bottom: 0%;
+    height: 100%;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    height: 300%;
+  }
+  to {
+    margin-bottom: 0%;
+    height: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

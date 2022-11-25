@@ -770,4 +770,33 @@ p {
   .abt-partner {
     display: none;
   }
+  .abt-footer {
+    height: 90px;
+    background: $secondary-color;
+  }
+  .abt-footer-details {
+    display: flex;
+  }
+  .abt-common img {
+    width: 15%;
+  }
+}
+
+// -------------------Hero section animation -----------
+
+.title {
+  animation-duration: 2s;
+  animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    height: 100%;
+  }
 }
