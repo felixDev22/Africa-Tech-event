@@ -418,6 +418,28 @@ p {
 .abt-partner {
   background: $secondary-color;
 }
+.abt-footer {
+  @include flex;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background: $white;
+
+  p {
+    font-size: 0.5rem;
+    color: $secondary-color;
+  }
+}
+.abt-common {
+  flex-basis: 50%;
+}
+.copyright {
+  flex-basis: 50%;
+}
+.abt-common img {
+  margin-left: 50px;
+  width: 60%;
+}
 
 // -------------Media-query---------------
 

@@ -423,6 +423,33 @@ p {
   background: #272a31;
 }
 
+.abt-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.abt-footer p {
+  font-size: 0.5rem;
+  color: #272a31;
+}
+
+.abt-common {
+  flex-basis: 50%;
+}
+
+.copyright {
+  flex-basis: 50%;
+}
+
+.abt-common img {
+  margin-left: 50px;
+  width: 60%;
+}
+
 @media (min-width: 768px) {
   .container {
     padding: 1rem 10%;
