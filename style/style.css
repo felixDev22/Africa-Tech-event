@@ -1,3 +1,5 @@
+/* stylelint-disable csstree/validator */
+/* stylelint-disable indentation */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
 
 * {
@@ -35,6 +37,42 @@ nav {
   height: 90px;
 }
 
+.copyright {
+  flex-basis: 50%;
+}
+
+.common img {
+  width: 60%;
+}
+
+.abt-common img {
+  margin-left: 50px;
+  width: 60%;
+}
+
+.event-pic img {
+  width: 100%;
+}
+
+.main-menu img {
+  width: 5%;
+  float: right;
+  margin-top: 25px;
+}
+
+.mobile-menu img {
+  width: 20%;
+}
+
+.brand {
+  margin-left: -35px;
+}
+
+.brand img {
+  width: 85%;
+  cursor: pointer;
+}
+
 nav .logo img {
   width: 85%;
 }
@@ -63,6 +101,10 @@ nav .logo img {
   margin-top: 30px;
 }
 
+.register-btn a {
+  color: #fff;
+}
+
 .main-menu ul li a {
   color: #fff;
 }
@@ -71,23 +113,20 @@ nav .logo img {
   color: #ed5342;
 }
 
-.main-menu img {
-  width: 5%;
-  float: right;
-  margin-top: 25px;
+.program-item .top img {
+  width: 30%;
+  margin-right: 0.5rem;
 }
 
-.mobile-menu img {
+.partners-content .partners-logos img {
   width: 20%;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
-.brand {
-  margin-left: -35px;
-}
-
-.brand img {
-  width: 85%;
-  cursor: pointer;
+.reveal .new-logo img {
+  margin-top: 50px;
+  width: 60%;
 }
 
 #close img {
@@ -113,19 +152,18 @@ nav .logo img {
 h1 {
   font-size: 2.6rem;
   font-weight: 900;
-  color: transparent;
   letter-spacing: 1px;
   background-image:
-    linear-gradient(
-      45deg,
-      rgba(235, 71, 53, 0.939),
-      rgba(252, 44, 7, 0.6)
+ linear-gradient(
+      rgba(0, 0, 255, 0.5),
+      rgba(255, 255, 0, 0.5)
     ),
-    url(../images/comp.png);
-  background-size: contain;
-  background-position-y: 10px;
+    url('../../media/examples/lizard.png');
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  background-position-y: 10px;
 }
 
 h2 {
@@ -165,14 +203,8 @@ p {
 .program {
   background-color: #272a31;
   background-size: 10px 10px;
-  background-image:
-    radial-gradient(
-      #181a1f 30%,
-      transparent 10%,
-      #262b39 50%,
-      transparent 10%
-    ),
-    linear-gradient(135deg, #121315 20%, transparent 10%, #21252c);
+  background-repeat: repeat;
+  background-image: url(../images/vector3.png);
 }
 
 .program h2 {
@@ -210,6 +242,30 @@ p {
   font-size: 0.95rem;
 }
 
+.footer p {
+  font-size: 0.7rem;
+}
+
+.about-box p {
+  line-height: 1.3rem;
+}
+
+.reveal {
+  background: #fff;
+  height: 40vh;
+  text-align: center;
+}
+
+.previous-content p {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.abt-footer p {
+  font-size: 0.5rem;
+  color: #272a31;
+}
+
 .program-item h3 p {
   font-size: 1.5rem;
 }
@@ -218,11 +274,6 @@ p {
   flex-basis: 55%;
   display: flex;
   align-items: center;
-}
-
-.program-item .top img {
-  width: 30%;
-  margin-right: 0.5rem;
 }
 
 .program-item .box-content {
@@ -243,14 +294,10 @@ p {
   font-weight: bold;
 }
 
-.register-btn a {
-  color: #fff;
-}
-
 .speakers {
   width: 100%;
   height: 600px;
-  margin-bottom: 80px;
+  margin-bottom: 280px;
 }
 
 .speakers h2 {
@@ -334,22 +381,12 @@ p {
   justify-content: center;
 }
 
-.partners-content .partners-logos img {
-  width: 20%;
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
 .footer {
   background: #fff;
   width: 100%;
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.footer p {
-  font-size: 0.7rem;
 }
 
 .footer-details {
@@ -360,14 +397,6 @@ p {
 
 .common {
   flex-basis: 50%;
-}
-
-.common img {
-  width: 60%;
-}
-
-.copyright {
-  flex-basis: 60%;
 }
 
 .about-section {
@@ -398,26 +427,11 @@ p {
   margin-bottom: 1.5rem;
 }
 
-.about-box p {
-  line-height: 1.3rem;
-}
-
-.reveal {
-  background: #fff;
-  height: 40vh;
-  text-align: center;
-}
-
 .reveal h2 {
   margin-top: 50px;
   font-size: 1.5rem;
   font-weight: bold;
   color: #272a31;
-}
-
-.reveal .new-logo img {
-  margin-top: 50px;
-  width: 60%;
 }
 
 .previous-content {
@@ -435,20 +449,11 @@ p {
   color: #272a31;
 }
 
-.previous-content p {
-  font-size: 0.8rem;
-  margin-bottom: 1.5rem;
-}
-
 .event-pic {
   margin-bottom: 25px;
   text-align: center;
   position: relative;
   color: #fff;
-}
-
-.event-pic img {
-  width: 100%;
 }
 
 .text {
@@ -472,22 +477,8 @@ p {
   background: #fff;
 }
 
-.abt-footer p {
-  font-size: 0.5rem;
-  color: #272a31;
-}
-
 .abt-common {
   flex-basis: 50%;
-}
-
-.copyright {
-  flex-basis: 50%;
-}
-
-.abt-common img {
-  margin-left: 50px;
-  width: 60%;
 }
 
 @media (min-width: 768px) {
@@ -564,8 +555,17 @@ p {
     display: flex;
   }
 
+  .register-btn a {
+    color: #fff;
+  }
+
   .main-links li {
     margin-right: 55px;
+  }
+
+  .active a {
+    color: #ed5342;
+    font-weight: 400;
   }
 
   .main-links li a {
@@ -575,11 +575,6 @@ p {
 
   .main-menu ul li a {
     color: #272a31;
-  }
-
-  .active a {
-    color: #ed5342;
-    font-weight: 400;
   }
 
   .highlight {
@@ -669,6 +664,19 @@ p {
     margin-top: -90px;
   }
 
+  .event-pic img {
+    width: 95%;
+  }
+
+  .abt-common img {
+    margin-left: 50px;
+    width: 40%;
+  }
+
+  .common img {
+    width: 40%;
+  }
+
   .program-item .top img {
     width: 80%;
   }
@@ -685,6 +693,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .reveal br {
+    display: none;
   }
 
   .box-content h3 br {
@@ -709,10 +721,6 @@ p {
     display: flex;
     background: #ed5342;
     padding: 20px 40px;
-  }
-
-  .register-btn a {
-    color: #fff;
   }
 
   .speakers h2 {
@@ -808,17 +816,13 @@ p {
     flex-basis: 50%;
   }
 
-  .common img {
-    width: 40%;
-  }
-
   .copyright {
     flex-basis: 60%;
   }
 
   .about-section {
     background-image: url(../images/desktop-bg-fa.png);
-    height: 100h;
+    height: 100vh;
   }
 
   .about-title {
@@ -853,10 +857,6 @@ p {
     height: 40vh;
   }
 
-  .reveal br {
-    display: none;
-  }
-
   .reveal h2 {
     font-size: 1.5rem;
   }
@@ -885,10 +885,6 @@ p {
     display: flex;
   }
 
-  .event-pic img {
-    width: 95%;
-  }
-
   .text h5 {
     font-size: 1.5rem;
   }
@@ -911,11 +907,6 @@ p {
   .abt-footer p {
     font-size: 0.8rem;
     color: #fff;
-  }
-
-  .abt-common img {
-    margin-left: 50px;
-    width: 40%;
   }
 }
 
