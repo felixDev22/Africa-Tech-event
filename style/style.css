@@ -132,6 +132,18 @@ nav .logo img {
   margin-right: 0.5rem;
 }
 
+.program-item {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 14%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.154);
+}
+
 .program-item:hover {
   transform: scale(1);
   border: solid 0.1rem #fff;
@@ -165,7 +177,7 @@ nav .logo img {
 }
 
 .title {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 h1 {
@@ -238,18 +250,6 @@ h2 {
   position: absolute;
   margin-top: -29px;
   left: 45%;
-}
-
-.program-item {
-  margin-bottom: 10px;
-  width: 100%;
-  height: 14%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.5rem;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.154);
 }
 
 .program-item h3 {
@@ -574,7 +574,7 @@ h2 {
   }
 
   .title {
-    margin-top: 15%;
+    margin-top: 9%;
   }
 
   #close {

@@ -39,7 +39,7 @@
 ### Key Features <a name="key-features"></a>
 
 - Responsive
-- Clean and Kneat
+- Clean and interactive
 - Modern
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -50,11 +50,11 @@
 
 > Here is a link to deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://felixdev22.github.io/Africa-Tech-event/)
 
 > Here is a link to loom video.
 
-- [Loom Video Link]()
+- [Loom Video Link](https://www.loom.com/share/a5e0b81a31ec48739afe222aa7046ebb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
