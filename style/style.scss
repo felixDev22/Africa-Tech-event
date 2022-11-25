@@ -400,6 +400,7 @@ p {
 }
 
 .event-pic {
+  margin-bottom: 25px;
   text-align: center;
   position: relative;
   color: $white;
@@ -412,6 +413,9 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.abt-partner {
+  background: $secondary-color;
 }
 
 // -------------Media-query---------------
