@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Capstone 1</b></h3>
@@ -12,10 +12,11 @@
 # 📖 Capstone 1 <a name="AFRICA TECH INNOVATION"></a>
 
 > Africa Tech Innovation is inspired by the growth of technology in Africa, The website based on a Tech event with speakers and about info. The design demonstrates the use of HTML, CSS and Js DOM manipulation.
+
 ## 🛠 Built With <a name="built-with">HTML, CSS, Sass & Javascript</a>
 
-  - It has implemented Js Dynamic function to take data and display the speakers info.
-  - It has slight animation to enhance the user experience.
+- It has implemented Js Dynamic function to take data and display the speakers info.
+- It has slight animation to enhance the user experience.
 
 ### Key Features <a name="key-features"></a>
 
@@ -52,7 +53,6 @@ Open in desired editor.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 Felix Nyamai
 
