@@ -49,7 +49,7 @@ const speakersData = [
 const speakerDetails = document.querySelector('.speaker-area');
 
 speakersData.forEach((speaker) => {
-  speakerDetails.innerHTML += `<div class='speakers-detail'>
+  speakerDetails.innerHTML += `<article class='speakers-detail'>
           <img src="${speaker.photo}" class="image" ></img>
         <div class='col-2'>
           <h3>${speaker.name}</h3>
@@ -59,7 +59,7 @@ speakersData.forEach((speaker) => {
           ${speaker.description} 
           </p>
         </div>
-        </div> `;
+        </article> `;
 });
 
 // --------------------- Mobile-Menu------------------
