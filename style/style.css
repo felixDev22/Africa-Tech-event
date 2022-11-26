@@ -430,9 +430,10 @@ h2 {
 }
 
 .about-section {
-  background-image: url(../images/mobile-bkg-fa.png);
+  background-image: url(../images/abt-back.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: auto;
   text-align: center;
@@ -862,7 +863,7 @@ h2 {
   /* --------------------------------About-section----------------------------- */
 
   .about-section {
-    background-image: url(../images/desktop-bg-fa.png);
+    background-image: url(../images/abt-back.png);
     height: 100vh;
   }
 
