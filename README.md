@@ -57,6 +57,8 @@ Open in desired editor.
 👤 Felix Nyamai
 
 - GitHub: [felixDev22](https://github.com/felixDev22)
+- Twitter: [@monzo200](https://twitter.com/monzo200)
+- Email: (felixnzomo@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
