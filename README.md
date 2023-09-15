@@ -5,7 +5,7 @@
   <img src="./images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone 1</b></h3>
+  <h3><b>AFRICA TECH INNOVATION</b></h3>
 
 </div>
 
