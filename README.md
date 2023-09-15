@@ -9,7 +9,7 @@
 
 </div>
 
-# 📖 Capstone 1 <a name="AFRICA TECH INNOVATION"></a>
+# 📖 <a name="AFRICA TECH INNOVATION"></a>
 
 > Africa Tech Innovation is inspired by the growth of technology in Africa, The website based on a Tech event with speakers and about info. The design demonstrates the use of HTML, CSS and Js DOM manipulation.
 ## 🛠 Built With <a name="built-with">HTML, CSS, Sass & Javascript</a>
